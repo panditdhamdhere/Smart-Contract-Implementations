@@ -72,7 +72,7 @@ contract ERC8004 is IERC8004 {
      */
     function updateReputation(address agent, uint256 reputation) public virtual override {
         require(_registeredAgents[agent], "ERC8004: agent not registered");
-        
+
         _reputations[agent] = reputation;
         emit ReputationUpdated(agent, reputation);
     }
