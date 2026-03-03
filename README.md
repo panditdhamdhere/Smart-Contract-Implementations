@@ -29,6 +29,8 @@ ERC/
 │   │   ├── ERC1155/        # Multi-token standard
 │   │   ├── ERC2612/        # ERC20 Permit (gasless approvals)
 │   │   ├── ERC2981/        # NFT Royalty (ERC721/ERC1155)
+│   │   ├── ERC4907/        # Rental NFT (user/expires)
+│   │   ├── ERC5192/        # Soulbound NFTs
 │   │   ├── ERC8004/        # Trustless Agents
 │   │   └── ...
 │   └── shared/             # Shared components and utilities
@@ -88,7 +90,7 @@ This repository aims to implement a comprehensive collection of ERC standards ac
 
 ### 🔶 Governance & Voting Standards
 - **ERC-1400**: Security Token Standard 📋 *planned*
-- **ERC-5192**: Minimal Soulbound NFTs 📋 *planned*
+- **ERC-5192**: Minimal Soulbound NFTs ✅ *complete* - [View Implementation](src/standards/ERC5192/) - [Read Docs](src/standards/ERC5192/README.md)
 - **ERC-5750**: General Extensibility for Method-Based Programmable NFTs 📋 *planned*
 
 ### 🔷 Utility & Extension Standards
@@ -96,7 +98,7 @@ This repository aims to implement a comprehensive collection of ERC standards ac
 - **ERC-3056**: Unvested Token Standard 📋 *planned*
 - **ERC-3664**: CCIP Read: Secure Offchain Data Retrieval 📋 *planned*
 - **ERC-4519**: NFT Descriptor 🏃 *WIP*
-- **ERC-4907**: Rental NFT, EIP-721 User And Expires ⏳ *in progress*
+- **ERC-4907**: Rental NFT, EIP-721 User And Expires ✅ *complete* - [View Implementation](src/standards/ERC4907/) - [Read Docs](src/standards/ERC4907/README.md)
 - **ERC-5083**: RNG (Random Number Generator) Multi-Source ⏳ *in progress*
 - **ERC-6949**: Token Info Event ⏳ *in progress*
 - **ERC-7009**: ZK NameRegistry ⏳ *in progress*
